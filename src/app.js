@@ -21,8 +21,8 @@ app.get('/health', (req, res) => {
   res.json({ status: 'ok' });
 });
 
-app.use('/api/auth', authRoutes);
-app.use('/api/tasks', taskRoutes);
+app.use('/auth', authRoutes);
+app.use('/tasks', taskRoutes);
 
 app.use(notFound);
 app.use(errorHandler);
