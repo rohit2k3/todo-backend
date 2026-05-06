@@ -21,7 +21,7 @@ A production-ready task manager built with MongoDB, Express, React, and Node.js.
 ### Setup Backend
 
 ```bash
-cd backend
+cd todo-backend
 npm install
 ```
 
